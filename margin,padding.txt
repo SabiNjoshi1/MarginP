@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Page</title>
+	<style>
+		.InnerBox{
+			height: 100px;
+			width: 100px;
+			background:#063466;
+			/*position: absolute;*/
+			right: 20px;
+			float: right;
+			bottom: 100px;
+
+
+			
+		}
+		.Box{
+			background-color: lightblue;
+			padding:20px;
+			color: black;
+			text-align: justify;
+			margin: 15px;
+			position: relative;
+
+			
+		}
+		.Child{
+			background-color: #F2582F;
+			padding: 20px;
+
+		}
+
+		.Parent{
+			background-color: #2FD37D;
+			padding: 30px;
+
+		}
+
+	</style>
+</head>
+<body>
+	<div class="Parent" >
+	<div class="Child">
+	<div class="Box">PREFEX<br> 
+	This book is an introductory text on a number of topics in discrete mathematics, intended primarily for students undertaking a first degree in computing. The first edition of the book grew out of a set of lecture notes of mine which were used in a first-year subject in discrete mathematics at Monash University. The subject was taken by students undertaking a computing degree with a major in computer technology, information systems, software development or computer application development. Since the publication of the first edition in 1995, the rapid growth of computing has continued unabated. The explosion in the extent and use of the World Wide Web, the development of new methods and standards in software engineering, the invention of programming languages and methodologies dedicated to specific needs, and the general increase in the speed and power of both hardware and software, have combined to produce a field in which, more than any other, newly gained knowledge is at risk of becoming rapidly out of date. Yet the mathematical foundations of the subject remain essentially the same. This second edition covers the same topics as the first, with the addition of new sections on constructing mathematical proofs, solving linear recurrences, and the application of number theory to public key encryption. Some new problems have been added, and some textual changes made to bring the material up to date. The term ‘discrete mathematics’ encompasses a collection of topics that form the prerequisite mathematical knowledge for studies in computing. Many textbooks are available with the words ‘discrete mathematics’ and either ‘computing’ or ‘computer science’ in their titles. These books generally cover the same broad range of topics: symbolic logic, sets, functions, induction, recursion, Boolean algebra, combinatorics, graph theory and number theory, and also in some cases probability theory, abstract algebra and mathematical models of computation. The unifying themes in these otherwise rather disparate topics are an emphasis on finite or countably infinite (hence ‘discrete’) mathematical structures, the use of an algorithmic approach to solving problems, and the applicability of the topics to problems arising in the study of computers and computing.<div class="InnerBox"></div>However, many courses in computing provide a different emphasis, notably in the areas of information systems, software development and commercial computing. Often, the students entering these courses come from a wide range of mathematical backgrounds. Some have substantial mathematical studies behind them, but there are others who have studied only a little mathematics in their final two years of school, in some cases many years before they commenced their tertiary studies. Furthermore, the more abstract topics in theoretical computer science hold little interest for these students.</div></div>
+	</div>
+
+</body>
+</html>
